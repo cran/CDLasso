@@ -27,9 +27,11 @@ function(x,y,k,lam.vec)
     for (ll in 1:length(lam.vec)){
     	eps = 0.001
       L1.out.train <- l1.reg(data.train.x,data.train.y,lambda=lam.vec[ll])
-      num.pred[ll] = L1.out.train$nonzeros
+      #num.pred[ll] = L1.out.train$nonzeros
       L1.out.test <- sum(abs(t(data.test.x)%*%L1.out.train$estimate-data.test.y))
       error.cv[ll,fold] <- L1.out.test
+      L1.out.full <- l1.reg(x,y,lambda=lam.vec[ll])
+      num.pred[ll] = L1.out.full$nonzeros
     }
   }
   

@@ -67,7 +67,7 @@ Maintainer: Edward Grant \email{edward.m.grant@gmail.com}
 }
 
 \examples{
-set.seed(100)
+set.seed(6)
 n=50 
 p=200
 nzfixed = c(1:5)

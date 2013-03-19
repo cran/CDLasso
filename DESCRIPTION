@@ -2,7 +2,7 @@ Package: CDLasso
 Type: Package
 Title: Coordinate Descent Algorithms for Lasso Penalized L1, L2, and
         Logistic Regression
-Version: 1.0
+Version: 1.1
 Date: 2013-19-03
 Author: Edward Grant, Kenneth Lange, Tong Tong Wu
 Maintainer: Edward Grant <edward.m.grant@gmail.com>
@@ -11,7 +11,7 @@ Description: Coordinate Descent Algorithms for Lasso Penalized L1, L2,
 License: GPL-2
 LazyLoad: yes
 LazyData: yes
-Packaged: 2013-03-20 03:32:51 UTC; emgrant
+Packaged: 2013-05-17 19:39:09 UTC; emgrant
 NeedsCompilation: yes
 Repository: CRAN
-Date/Publication: 2013-03-20 17:34:40
+Date/Publication: 2013-05-17 22:34:35

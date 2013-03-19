@@ -42,7 +42,8 @@ function(x,y,k,lam.vec)
      		} else{
      			error.cv[ll,fold] = 10^10000
      		}
-     		num.pred[ll] = out$nonzeros
+     		logit.out.full <- logit.reg(x,y,lambda=lam.vec[ll])
+            num.pred[ll] = logit.out.full$nonzeros
     }
  }
   

@@ -10,6 +10,9 @@ function (x, ...)
   cat ("\n Lambda used:", x$lambda, "\n")
   cat ("\n")
   
+  cat ("\n Intercept: \n")
+  print (x$intercept)
+  
   cat ("\n Selected Coefficient Estimates: \n")
   print (cbind(Predictor=rownames(x$X)[x$selected+1],Estimate=x$estimate[x$selected]),justify="centre")
   

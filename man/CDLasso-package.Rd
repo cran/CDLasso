@@ -12,7 +12,7 @@ Greedy coordinate descent for L1 regression and cyclic coordinate descent for L2
 \tabular{ll}{
 Package: \tab CDLasso \cr
 Title: \tab Coordinate Descent for L1 and L2 Regression \cr
-Version: \tab 1.0 \cr
+Version: \tab 1.1 \cr
 Date: \tab 2013-13-03 \cr
 Author: \tab Edward Grant, Kenneth Lange, Tong Tong Wu \cr
 Maintainer: \tab Edward Grant <edward.m.grant@gmail.com> \cr

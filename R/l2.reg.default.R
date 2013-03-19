@@ -20,7 +20,7 @@ function (X, Y, lambda=1)
                            Y=as.double(as.vector(Y)),
                            as.double (lambda),
                            as.integer (cases),
-                           as.integer (predictors),
+                           as.integer (predictors+1),
                            L2 = as.double(0),
                            r = as.double(as.vector(rep(0,cases))),
                            objective = as.double(0),                        
@@ -41,6 +41,7 @@ function (X, Y, lambda=1)
   
   out <- list (X = X,
   			  Y = Y,
+  			  intercept = return_data$estimate[1],
               estimate = return_data$estimate[2:(predictors+1)],	               
               cases = cases,
               predictors = predictors,

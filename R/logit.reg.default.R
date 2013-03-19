@@ -49,6 +49,7 @@ function (X, Y, lambda=1)
               objective = return_data$objective,
               loglikelihood = return_data$loglikelihood,
               residual = return_data$r,
+              intercept = return_data$estimate[1],
               estimate = return_data$estimate[2:length(return_data$estimate)],
               nonzeros = nonzeros,
               selected = selected,

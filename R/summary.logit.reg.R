@@ -27,6 +27,9 @@ function (object, ...)
   cat ("\n Lambda used:", object$lambda, "\n")
   cat ("\n")
   
+  cat ("\n Intercept: \n")
+  print (object$intercept)  
+  
   cat ("\n Esimtated Coefficients: \n")
   print (object$estimate)
   cat ("\n")
